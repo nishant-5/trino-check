@@ -4,7 +4,7 @@ data:
 
     people_rw: chinta, final, keys, mouse
 
-    common_rw: prasad, satya'
+    common_rw: help, help, prasad, satya'
 kind: ConfigMap
 metadata:
   name: trino-configmap
