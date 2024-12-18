@@ -1,11 +1,10 @@
 apiVersion: v1
-data:
-  group.txt: 'users_rw: david, john, nishant, sample
-
-    people_rw: chinta, keys, mouse
-
-    common_rw: prasad, satya'
 kind: ConfigMap
 metadata:
   name: trino-configmap
   namespace: default
+data:
+  group.txt: |
+    users_rw: nishant,john,david
+    people_rw: chinta,keys,mouse
+    common_rw: prasad,satya
